@@ -1,85 +1,85 @@
-/* Kontainer utama */
+
 .materi-container {
-    padding: 20px;
-    text-align: center;
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(135deg, #f7b42c, #fc575e);
-    min-height: 100vh;
-    color: #ffffff;
-  }
-  
-  .materi-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .materi-subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  /* Grid untuk kartu */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f7b42c, #fc575e);
+  min-height: 100vh; 
+  color: #ffffff;
+}
+
+
+.materi-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.materi-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 20px; 
+  width: 100%; 
+  max-width: 1200px; 
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.25); 
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
   .card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolom default */
-    gap: 20px; /* Jarak antar kartu */
-    justify-items: center; /* Kartu berada di tengah */
-    margin-top: 20px;
+      grid-template-columns: repeat(2, 1fr); 
   }
-  
-  /* Gaya kartu */
-  .card {
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-    backdrop-filter: blur(5px);
-    width: 250px; /* Ukuran kartu tetap */
-    text-align: left;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+      grid-template-columns: repeat(1, 1fr); 
   }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 255, 255, 0.25); /* Lebih terang saat hover */
-  }
-  
-  .card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #fff;
-  }
-  
-  /* Aturan responsif */
-  @media (max-width: 1024px) {
-    .card-grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 kolom untuk tablet */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .card-grid {
-      grid-template-columns: repeat(1, 1fr); /* 1 kolom untuk ponsel */
-    }
-    .materi-title {
+  .materi-title {
       font-size: 2rem;
-    }
-    .materi-subtitle {
+  }
+  .materi-subtitle {
       font-size: 1rem;
-    }
   }
-  
-  @media (max-width: 480px) {
-    .card {
-      width: 90%; /* Lebar penuh pada layar kecil */
-    }
+}
+
+@media (max-width: 480px) {
+  .card {
+      width: 90%;
   }
-  
+}
