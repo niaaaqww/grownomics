@@ -8,7 +8,7 @@
   font-family: "Arial", sans-serif;
   background: linear-gradient(135deg, #f7b42c, #fc575e);
   min-height: 100vh; 
-  color: #ffffff;
+  color: #0b0505;
 }
 
 
@@ -57,7 +57,7 @@
 .card p {
   font-size: 1rem;
   line-height: 1.5;
-  color: #fff;
+  color: #190606;
 }
 
 @media (max-width: 1024px) {
