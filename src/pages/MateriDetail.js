@@ -897,15 +897,74 @@ const materiDetailContent = {
     title: "Bab 10: Perdagangan Internasional",
     content: (
       <>
-        <h2>1. Manfaat Perdagangan Internasional</h2>
+        <h2>1. Pengertian Perdagangan Internasional</h2>
         <p>
-          Memperluas pasar, meningkatkan efisiensi, dan mendorong inovasi.
+          Perdagangan internasional adalah aktivitas pertukaran barang dan jasa antara negara-negara di dunia. Perdagangan ini memungkinkan negara-negara untuk memperoleh barang dan jasa yang tidak dapat diproduksi secara domestik, serta menjual produk-produk mereka ke pasar global.
         </p>
-        <h2>2. Hambatan Perdagangan</h2>
+
+        <h2>2. Manfaat Perdagangan Internasional</h2>
+        <p>Perdagangan internasional memiliki berbagai manfaat bagi negara yang terlibat, di antaranya:</p>
         <ul>
-          <li>Tarif</li>
-          <li>Kuota</li>
+          <li><strong>Spesialisasi dan Efisiensi:</strong> Negara dapat memfokuskan produksi pada barang dan jasa yang mereka hasilkan dengan efisien, sesuai dengan keunggulan komparatif mereka.</li>
+          <li><strong>Akses ke Pasar yang Lebih Luas:</strong> Produsen dapat menjual barang dan jasa mereka ke pasar global, meningkatkan potensi penjualan dan keuntungan.</li>
+          <li><strong>Peningkatan Pilihan Konsumen:</strong> Konsumen memiliki akses ke berbagai macam produk yang mungkin tidak tersedia di pasar domestik.</li>
+          <li><strong>Transfer Teknologi:</strong> Perdagangan internasional memungkinkan transfer teknologi dan pengetahuan antara negara-negara, yang dapat meningkatkan produktivitas dan inovasi.</li>
+          <li><strong>Peningkatan Kesejahteraan Ekonomi:</strong> Peningkatan efisiensi dan pilihan dapat meningkatkan standar hidup masyarakat melalui peningkatan pendapatan dan penurunan harga.</li>
         </ul>
+
+        <h2>3. Teori-Teori Perdagangan Internasional</h2>
+        <p>Beberapa teori yang menjelaskan dasar-dasar perdagangan internasional meliputi:</p>
+        <h3>a. Teori Keunggulan Absolut</h3>
+        <p>Adam Smith: Menyatakan bahwa suatu negara sebaiknya memproduksi dan mengekspor barang yang dapat mereka hasilkan dengan biaya lebih rendah dibandingkan negara lain, dan mengimpor barang yang dapat dihasilkan negara lain dengan biaya lebih rendah.</p>
+        <h3>b. Teori Keunggulan Komparatif</h3>
+        <p>David Ricardo: Menyatakan bahwa negara akan memperoleh manfaat dari perdagangan internasional dengan mengkhususkan diri dalam produksi barang yang mereka hasilkan dengan biaya kesempatan relatif lebih rendah, meskipun mereka tidak memiliki keunggulan absolut.</p>
+        <h3>c. Teori Heckscher-Ohlin</h3>
+        <p>Eli Heckscher dan Bertil Ohlin: Menyatakan bahwa perdagangan internasional didorong oleh perbedaan dalam ketersediaan faktor produksi (seperti tanah, tenaga kerja, dan modal) antar negara. Negara akan mengekspor barang yang membutuhkan faktor produksi yang berlimpah dan mengimpor barang yang membutuhkan faktor produksi yang langka.</p>
+
+        <h2>4. Hambatan Perdagangan Internasional</h2>
+        <p>Meskipun memiliki banyak manfaat, perdagangan internasional sering kali menghadapi berbagai hambatan, termasuk:</p>
+        <h3>a. Tarif</h3>
+        <p><strong>Pengertian:</strong> Pajak yang dikenakan pada barang impor untuk melindungi industri domestik atau menghasilkan pendapatan bagi pemerintah.</p>
+        <p><strong>Dampak:</strong> Tarif dapat meningkatkan harga barang impor, mengurangi volume perdagangan, dan merugikan konsumen domestik.</p>
+        <h3>b. Kuota</h3>
+        <p><strong>Pengertian:</strong> Pembatasan jumlah barang yang dapat diimpor dalam jangka waktu tertentu.</p>
+        <p><strong>Dampak:</strong> Kuota dapat melindungi industri domestik tetapi juga dapat menyebabkan kurangnya persediaan dan harga yang lebih tinggi bagi konsumen.</p>
+        <h3>c. Subsidi</h3>
+        <p><strong>Pengertian:</strong> Bantuan finansial yang diberikan pemerintah kepada industri domestik untuk meningkatkan daya saing mereka di pasar internasional.</p>
+        <p><strong>Dampak:</strong> Subsidi dapat mendistorsi pasar, menyebabkan ketidakseimbangan perdagangan, dan sering kali dianggap tidak adil oleh negara lain.</p>
+        <h3>d. Regulasi dan Standar</h3>
+        <p><strong>Pengertian:</strong> Peraturan yang harus dipatuhi oleh barang impor, seperti standar kualitas, kesehatan, dan keselamatan.</p>
+        <p><strong>Dampak:</strong> Regulasi dapat melindungi konsumen tetapi juga dapat digunakan sebagai alat proteksi yang menghambat perdagangan bebas.</p>
+
+        <h2>5. Organisasi dan Perjanjian Perdagangan Internasional</h2>
+        <p>Beberapa organisasi dan perjanjian yang berperan dalam mengatur dan memfasilitasi perdagangan internasional meliputi:</p>
+        <h3>a. Organisasi Perdagangan Dunia (WTO)</h3>
+        <p><strong>Tujuan:</strong> Mendorong perdagangan bebas dengan mengurangi hambatan perdagangan dan menyelesaikan sengketa perdagangan antar negara anggota.</p>
+        <p><strong>Fungsi:</strong> Menyediakan forum untuk negosiasi perdagangan, mengawasi implementasi perjanjian perdagangan, dan menangani perselisihan perdagangan.</p>
+        <h3>b. Perjanjian Perdagangan Bebas (FTA)</h3>
+        <p><strong>Pengertian:</strong> Kesepakatan antara dua atau lebih negara untuk mengurangi atau menghilangkan hambatan perdagangan di antara mereka.</p>
+        <p><strong>Contoh:</strong> Perjanjian Perdagangan Bebas Amerika Utara (NAFTA), Perjanjian Perdagangan Bebas Uni Eropa.</p>
+        <h3>c. Kerjasama Ekonomi Asia-Pasifik (APEC)</h3>
+        <p><strong>Tujuan:</strong> Meningkatkan pertumbuhan ekonomi dan kemakmuran di kawasan Asia-Pasifik melalui liberalisasi perdagangan dan investasi.</p>
+
+        <h2>6. Dampak Globalisasi terhadap Perdagangan Internasional</h2>
+        <p>Globalisasi telah meningkatkan integrasi ekonomi global, membawa banyak dampak terhadap perdagangan internasional, termasuk:</p>
+        <ul>
+          <li><strong>Peningkatan Volume Perdagangan:</strong> Globalisasi telah mendorong peningkatan perdagangan antar negara melalui pengurangan hambatan perdagangan dan kemajuan teknologi.</li>
+          <li><strong>Perubahan Struktur Ekonomi:</strong> Integrasi ekonomi global telah mengubah struktur ekonomi banyak negara, meningkatkan peran sektor jasa dan manufaktur.</li>
+          <li><strong>Peningkatan Persaingan:</strong> Perdagangan internasional yang lebih terbuka telah meningkatkan persaingan di pasar global, mendorong efisiensi dan inovasi.</li>
+          <li><strong>Ketimpangan Ekonomi:</strong> Globalisasi telah menyebabkan ketimpangan ekonomi baik di dalam maupun antara negara-negara, dengan beberapa kelompok dan negara mendapat manfaat lebih besar daripada yang lain.</li>
+        </ul>
+
+        <h2>7. Studi Kasus: Perdagangan Internasional di Berbagai Negara</h2>
+        <p><strong>Cina:</strong> Sebagai salah satu negara eksportir terbesar di dunia, Cina telah mendapatkan manfaat besar dari perdagangan internasional melalui kebijakan ekspor dan investasi yang agresif.</p>
+        <p><strong>Jerman:</strong> Ekonomi Jerman sangat bergantung pada perdagangan internasional, terutama di sektor otomotif dan mesin, dengan kebijakan perdagangan yang mendukung ekspor.</p>
+        <p><strong>Indonesia:</strong> Sebagai negara berkembang, Indonesia telah berpartisipasi aktif dalam perdagangan internasional dengan mengekspor komoditas utama seperti minyak kelapa sawit, batu bara, dan tekstil.</p>
+
+        <h2>8. Kesimpulan</h2>
+        <p>
+          Perdagangan internasional adalah aspek penting dari perekonomian global yang membawa banyak manfaat tetapi juga menghadapi berbagai tantangan. Melalui pemahaman tentang teori-teori perdagangan, hambatan yang ada, dan peran organisasi internasional, kita dapat mengembangkan kebijakan yang mendukung perdagangan yang adil dan berkelanjutan, serta meningkatkan kesejahteraan ekonomi global.
+        </p>
       </>
     ),
   },
@@ -913,30 +972,148 @@ const materiDetailContent = {
     title: "Bab 11: Kebijakan Ekonomi",
     content: (
       <>
-        <h2>1. Kebijakan Moneter</h2>
+        <h2>1. Pengertian Kebijakan Ekonomi</h2>
         <p>
-          Mengendalikan jumlah uang yang beredar untuk menjaga stabilitas ekonomi.
+          Kebijakan ekonomi adalah serangkaian tindakan yang diambil oleh pemerintah untuk mengelola perekonomian suatu negara. Tujuan dari kebijakan ekonomi adalah mencapai stabilitas ekonomi, pertumbuhan ekonomi yang berkelanjutan, dan distribusi kesejahteraan yang lebih adil.
         </p>
-        <h2>2. Kebijakan Fiskal</h2>
+  
+        <h2>2. Jenis-Jenis Kebijakan Ekonomi</h2>
+        <h3>a. Kebijakan Fiskal</h3>
+        <p><strong>Pengertian:</strong> Kebijakan yang berkaitan dengan pengelolaan anggaran pemerintah melalui pengeluaran dan penerimaan negara (pajak).</p>
+        <p><strong>Tujuan:</strong> Mendorong pertumbuhan ekonomi, mengendalikan inflasi, mengurangi pengangguran, dan menciptakan distribusi pendapatan yang lebih merata.</p>
+        <h4>Alat-Alat Kebijakan Fiskal:</h4>
+        <ul>
+          <li><strong>Pengeluaran Pemerintah:</strong> Investasi dalam infrastruktur, pendidikan, kesehatan, dan layanan publik lainnya.</li>
+          <li><strong>Pajak:</strong> Penetapan tarif pajak yang mempengaruhi pendapatan pemerintah dan pengeluaran rumah tangga.</li>
+        </ul>
+  
+        <h3>b. Kebijakan Moneter</h3>
+        <p><strong>Pengertian:</strong> Kebijakan yang berkaitan dengan pengelolaan jumlah uang beredar dan tingkat suku bunga oleh bank sentral.</p>
+        <p><strong>Tujuan:</strong> Mengendalikan inflasi, menjaga stabilitas nilai tukar, dan mendorong pertumbuhan ekonomi.</p>
+        <h4>Alat-Alat Kebijakan Moneter:</h4>
+        <ul>
+          <li><strong>Operasi Pasar Terbuka:</strong> Membeli atau menjual surat berharga pemerintah untuk mengatur jumlah uang beredar.</li>
+          <li><strong>Suku Bunga:</strong> Menetapkan tingkat suku bunga yang mempengaruhi biaya pinjaman dan tabungan.</li>
+          <li><strong>Rasio Cadangan Wajib:</strong> Menetapkan persentase simpanan yang harus disimpan oleh bank sebagai cadangan di bank sentral.</li>
+        </ul>
+  
+        <h3>c. Kebijakan Perdagangan</h3>
+        <p><strong>Pengertian:</strong> Kebijakan yang mengatur hubungan perdagangan internasional untuk mendukung perekonomian domestik.</p>
+        <p><strong>Tujuan:</strong> Meningkatkan ekspor, melindungi industri domestik, dan menjaga keseimbangan neraca perdagangan.</p>
+        <h4>Alat-Alat Kebijakan Perdagangan:</h4>
+        <ul>
+          <li><strong>Tarif:</strong> Pajak yang dikenakan pada barang impor untuk melindungi industri dalam negeri.</li>
+          <li><strong>Kuota:</strong> Pembatasan jumlah barang yang dapat diimpor dalam jangka waktu tertentu.</li>
+          <li><strong>Subsidi Ekspor:</strong> Dukungan keuangan untuk produsen domestik agar mereka lebih kompetitif di pasar internasional.</li>
+        </ul>
+  
+        <h3>d. Kebijakan Industri</h3>
+        <p><strong>Pengertian:</strong> Kebijakan yang bertujuan untuk mengembangkan sektor-sektor industri strategis dalam perekonomian.</p>
+        <p><strong>Tujuan:</strong> Meningkatkan daya saing industri, menciptakan lapangan kerja, dan mengurangi ketergantungan pada impor.</p>
+        <h4>Alat-Alat Kebijakan Industri:</h4>
+        <ul>
+          <li><strong>Subsidi:</strong> Dukungan finansial untuk industri tertentu.</li>
+          <li><strong>Insentif Pajak:</strong> Pengurangan pajak untuk industri yang berinvestasi dalam teknologi dan infrastruktur.</li>
+          <li><strong>Regulasi:</strong> Pembentukan peraturan yang mendukung pengembangan industri tertentu.</li>
+        </ul>
+  
+        <h2>3. Tujuan Kebijakan Ekonomi</h2>
+        <p>Kebijakan ekonomi bertujuan untuk mencapai beberapa sasaran utama, antara lain:</p>
+        <ul>
+          <li><strong>Stabilitas Ekonomi:</strong> Mencegah fluktuasi tajam dalam perekonomian seperti inflasi atau resesi.</li>
+          <li><strong>Pertumbuhan Ekonomi:</strong> Mendorong peningkatan kapasitas produksi dan pendapatan nasional.</li>
+          <li><strong>Pemerataan Ekonomi:</strong> Mengurangi ketimpangan pendapatan dan meningkatkan kesejahteraan seluruh lapisan masyarakat.</li>
+          <li><strong>Keseimbangan Neraca Pembayaran:</strong> Menjaga keseimbangan antara ekspor dan impor serta aliran modal.</li>
+        </ul>
+  
+        <h2>4. Implementasi Kebijakan Ekonomi</h2>
+        <p>Implementasi kebijakan ekonomi melibatkan beberapa langkah, termasuk:</p>
+        <ul>
+          <li><strong>Perencanaan:</strong> Menetapkan tujuan dan alat kebijakan yang akan digunakan.</li>
+          <li><strong>Pelaksanaan:</strong> Mengimplementasikan kebijakan melalui lembaga pemerintah terkait.</li>
+          <li><strong>Pengawasan dan Evaluasi:</strong> Memantau dampak kebijakan dan mengevaluasi keberhasilannya untuk melakukan penyesuaian jika diperlukan.</li>
+        </ul>
+  
+        <h2>5. Dampak Kebijakan Ekonomi</h2>
+        <p>Kebijakan ekonomi dapat memiliki berbagai dampak terhadap perekonomian, baik positif maupun negatif:</p>
+        <h3>a. Dampak Positif</h3>
+        <ul>
+          <li><strong>Pertumbuhan Ekonomi:</strong> Kebijakan yang tepat dapat mendorong investasi, produksi, dan lapangan kerja.</li>
+          <li><strong>Stabilitas Harga:</strong> Kebijakan moneter yang efektif dapat mengendalikan inflasi dan menjaga stabilitas harga.</li>
+          <li><strong>Peningkatan Kesejahteraan:</strong> Kebijakan fiskal yang tepat dapat meningkatkan akses masyarakat terhadap layanan publik.</li>
+        </ul>
+  
+        <h3>b. Dampak Negatif</h3>
+        <ul>
+          <li><strong>Ketidakefisienan Ekonomi:</strong> Kebijakan yang tidak tepat dapat menyebabkan distorsi pasar dan alokasi sumber daya yang tidak efisien.</li>
+          <li><strong>Inflasi:</strong> Kebijakan fiskal yang terlalu ekspansif dapat meningkatkan jumlah uang beredar dan memicu inflasi.</li>
+          <li><strong>Defisit Anggaran:</strong> Pengeluaran pemerintah yang berlebihan tanpa pendapatan yang memadai dapat menyebabkan defisit anggaran yang berkelanjutan.</li>
+        </ul>
+  
+        <h2>6. Studi Kasus: Kebijakan Ekonomi di Berbagai Negara</h2>
+        <p><strong>Amerika Serikat:</strong> Penerapan kebijakan fiskal dan moneter yang agresif selama krisis finansial 2008 untuk mengatasi resesi dan mendorong pertumbuhan ekonomi.</p>
+        <p><strong>Cina:</strong> Kebijakan industri yang fokus pada pengembangan teknologi tinggi dan manufaktur untuk meningkatkan daya saing global.</p>
+        <p><strong>Indonesia:</strong> Kebijakan fiskal yang mencakup program subsidi untuk sektor pertanian dan infrastruktur untuk mendorong pembangunan ekonomi daerah.</p>
+  
+        <h2>7. Kesimpulan</h2>
         <p>
-          Pengelolaan anggaran negara untuk mendukung pertumbuhan ekonomi.
+          Kebijakan ekonomi adalah alat penting yang digunakan oleh pemerintah untuk mengelola perekonomian dan mencapai tujuan kesejahteraan. Pemahaman tentang berbagai jenis kebijakan ekonomi dan dampaknya sangat penting bagi pengambilan keputusan yang efektif dalam mengelola perekonomian suatu negara.
         </p>
       </>
     ),
   },
   12: {
-    title: "Bab 12: Globalisasi Ekonomi",
+    title: "Bab: Globalisasi Ekonomi",
     content: (
       <>
-        <h2>1. Definisi Globalisasi Ekonomi</h2>
+        <h2>1. Pengertian Globalisasi Ekonomi</h2>
         <p>
-          Integrasi ekonomi dunia melalui perdagangan dan investasi lintas negara.
+          Globalisasi ekonomi adalah proses integrasi ekonomi yang semakin meningkat di antara negara-negara di dunia, yang melibatkan pertukaran barang, jasa, informasi, teknologi, dan modal secara lebih bebas dan luas. Proses ini ditandai oleh peningkatan perdagangan internasional, investasi asing, dan aliran keuangan yang lebih mudah antarnegara.
         </p>
-        <h2>2. Dampak Globalisasi</h2>
+  
+        <h2>2. Faktor-Faktor Pendorong Globalisasi Ekonomi</h2>
+        <p>Beberapa faktor utama yang mendorong globalisasi ekonomi meliputi:</p>
         <ul>
-          <li>Peluang pasar baru</li>
-          <li>Persaingan global</li>
+          <li><strong>Kemajuan Teknologi:</strong> Perkembangan internet, telekomunikasi, dan teknologi digital telah mempermudah komunikasi dan transaksi bisnis antarnegara.</li>
+          <li><strong>Transportasi:</strong> Peningkatan efisiensi dan penurunan biaya transportasi memungkinkan barang dan jasa bergerak lebih cepat dan murah melintasi batas-batas negara.</li>
+          <li><strong>Liberalisasi Perdagangan:</strong> Perjanjian antarnegara untuk mengurangi atau menghapuskan tarif dan hambatan perdagangan lainnya telah mendorong perdagangan internasional.</li>
+          <li><strong>Investasi Asing:</strong> Penanaman modal asing oleh perusahaan multinasional untuk mengakses pasar baru, sumber daya, dan tenaga kerja yang lebih murah.</li>
         </ul>
+  
+        <h2>3. Manfaat Globalisasi Ekonomi</h2>
+        <p>Globalisasi ekonomi memiliki berbagai manfaat bagi negara-negara yang terlibat, di antaranya:</p>
+        <ul>
+          <li><strong>Peningkatan Pertumbuhan Ekonomi:</strong> Ekspansi pasar dan peningkatan investasi yang dapat meningkatkan pendapatan dan kapasitas produksi.</li>
+          <li><strong>Akses terhadap Teknologi dan Pengetahuan:</strong> Transfer teknologi dan pengetahuan dari negara maju untuk meningkatkan efisiensi dan inovasi.</li>
+          <li><strong>Peningkatan Standar Hidup:</strong> Pilihan konsumen yang lebih luas dan penurunan harga melalui persaingan yang lebih ketat di pasar global.</li>
+        </ul>
+  
+        <h2>4. Dampak Negatif Globalisasi Ekonomi</h2>
+        <p>Selain manfaatnya, globalisasi ekonomi juga memiliki beberapa dampak negatif, termasuk:</p>
+        <ul>
+          <li><strong>Ketimpangan Ekonomi:</strong> Kesenjangan pendapatan yang dapat memperburuk ketimpangan sosial di dalam dan antarnegara.</li>
+          <li><strong>Eksploitasi Tenaga Kerja:</strong> Perusahaan multinasional dapat memanfaatkan tenaga kerja murah dengan kondisi kerja yang buruk di negara berkembang.</li>
+          <li><strong>Kerusakan Lingkungan:</strong> Peningkatan polusi dan degradasi lingkungan akibat aktivitas industri dan transportasi global.</li>
+          <li><strong>Ketergantungan Ekonomi:</strong> Negara dapat menjadi terlalu bergantung pada pasar global, yang membuat mereka rentan terhadap fluktuasi ekonomi internasional.</li>
+        </ul>
+  
+        <h2>5. Respon Terhadap Globalisasi Ekonomi</h2>
+        <p>Negara-negara dan organisasi internasional telah mengambil berbagai langkah untuk memaksimalkan manfaat dan mengurangi dampak negatif globalisasi ekonomi:</p>
+        <ul>
+          <li><strong>Kebijakan Proteksionis:</strong> Tarif, kuota, dan subsidi untuk melindungi industri domestik dari persaingan luar negeri.</li>
+          <li><strong>Perjanjian dan Kerjasama Internasional:</strong> Kesepakatan perdagangan bebas dan kerjasama regional untuk mengurangi hambatan perdagangan.</li>
+          <li><strong>Kebijakan Pembangunan Berkelanjutan:</strong> Regulasi lingkungan dan investasi dalam sumber daya manusia untuk mengurangi ketimpangan ekonomi.</li>
+        </ul>
+  
+        <h2>6. Studi Kasus: Dampak Globalisasi Ekonomi di Berbagai Negara</h2>
+        <p><strong>Cina:</strong> Mengalami pertumbuhan ekonomi pesat melalui kebijakan perdagangan terbuka dan menarik investasi asing.</p>
+        <p><strong>India:</strong> Mendapat manfaat dari globalisasi melalui investasi asing di sektor teknologi informasi dan manufaktur.</p>
+        <p><strong>Afrika:</strong> Beberapa negara Afrika menghadapi dampak positif dari investasi asing, tetapi juga mengalami ketimpangan ekonomi dan kerusakan lingkungan.</p>
+  
+        <h2>7. Kesimpulan</h2>
+        <p>
+          Globalisasi ekonomi adalah fenomena yang kompleks dengan berbagai dampak positif dan negatif. Dengan pengelolaan yang baik melalui kebijakan yang berkelanjutan dan inklusif, globalisasi dapat menjadi kekuatan yang mendukung pembangunan ekonomi yang adil dan berkelanjutan bagi semua negara.
+        </p>
       </>
     ),
   },

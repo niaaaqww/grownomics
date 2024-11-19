@@ -28,7 +28,7 @@
   margin-bottom: 15px;
 }
 
-/* Gaya tombol */
+/* Gaya tombol di sidebar */
 .sidebar a {
   display: block;
   font-size: 1.2rem;
@@ -40,35 +40,35 @@
   transition: all 0.3s ease;
 }
 
-/* Warna berbeda untuk setiap tombol */
-.btn-home {
+/* Warna berbeda untuk setiap tombol hanya di dalam sidebar */
+.sidebar .btn-home {
   background-color: #f44336; /* Merah */
 }
 
-.btn-materi {
+.sidebar .btn-materi {
   background-color: #4caf50; /* Hijau */
 }
 
-.btn-latihan {
+.sidebar .btn-latihan {
   background-color: #ff9800; /* Oranye */
 }
 
-.btn-grafik {
+.sidebar .btn-grafik {
   background-color: #2196f3; /* Biru Muda */
 }
 
-.btn-kuis {
+.sidebar .btn-kuis {
   background-color: #9c27b0; /* Ungu */
 }
 
-/* Hover efek */
+/* Hover efek khusus sidebar */
 .sidebar a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }
 
-/* Responsivitas */
+/* Responsivitas hanya untuk sidebar */
 @media (max-width: 768px) {
   .sidebar {
     width: 200px; /* Lebar lebih kecil pada layar kecil */
