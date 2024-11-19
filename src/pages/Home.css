@@ -1,0 +1,87 @@
+.homeContainer {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff;
+    padding: 50px 20px;
+    min-height: 100vh;
+    margin-left: 250px; /* Memberikan ruang untuk sidebar */
+  }
+  
+  .heroSection {
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease-in-out;
+    padding-left: 20px; /* Menambah padding kiri agar tidak terlalu dekat dengan sidebar */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .ctaButton {
+    background-color: #ffffff;
+    color: #2575fc;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #2575fc;
+    color: #ffffff;
+  }
+  
+  .cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
