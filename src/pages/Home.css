@@ -1,86 +1,58 @@
 .homeContainer {
-  text-align: center;
+  padding: 20px;
   font-family: "Arial", sans-serif;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #ffffff;
-  padding: 50px 20px;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Gradien warna lembut */
   min-height: 100vh;
-  margin-left: 250px; /* Memberikan ruang untuk sidebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Warna teks utama */
 }
 
 .heroSection {
-  margin-bottom: 40px;
-  animation: fadeIn 1.5s ease-in-out;
-  padding-left: 20px; /* Menambah padding kiri agar tidak terlalu dekat dengan sidebar */
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.title {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  font-size: 1.5rem;
+  text-align: center;
   margin-bottom: 30px;
 }
 
-.ctaButton {
-  background-color: #ffffff;
-  color: #2575fc;
-  padding: 10px 20px;
-  font-size: 1rem;
+.title {
+  font-size: 2.5rem;
   font-weight: bold;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  margin-bottom: 15px;
+  color: #2a7a4d; /* Hijau lembut */
 }
 
-.ctaButton:hover {
-  background-color: #2575fc;
-  color: #ffffff;
+.subtitle {
+  font-size: 1.2rem;
+  color: #555; /* Abu-abu untuk teks pendukung */
 }
 
-.cardSection {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+.contentSection {
+  max-width: 800px;
+  text-align: justify;
+  background: #ffffff; /* Warna latar belakang konten */
   padding: 20px;
-  max-width: 300px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Bayangan lembut */
 }
 
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-}
-
-.card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.card p {
+.text {
+  line-height: 1.8;
+  margin-bottom: 15px;
   font-size: 1rem;
-  line-height: 1.5;
+  color: #333; /* Teks utama */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
 }
