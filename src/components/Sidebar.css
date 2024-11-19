@@ -1,50 +1,100 @@
-/* Menetapkan gaya untuk sidebar */
+/* Gaya umum untuk sidebar */
 .sidebar {
-    position: fixed;  /* Posisi tetap di sisi kiri */
-    top: 0;
-    left: 0;
-    width: 250px;  /* Lebar sidebar */
-    height: 100vh;  /* Sidebar memenuhi seluruh tinggi layar */
-    background-color: #2575fc;  /* Warna latar belakang sidebar */
-    color: #fff;
-    padding: 20px;
-    box-sizing: border-box;  /* Agar padding tidak mengubah ukuran elemen */
-    z-index: 10;  /* Memastikan sidebar berada di atas konten */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #2575fc; /* Warna latar belakang sidebar */
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 10;
+  overflow-y: auto; /* Jika terlalu panjang, sidebar bisa digulir */
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+/* Gaya tombol */
+.sidebar a {
+  display: block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Warna berbeda untuk setiap tombol */
+.btn-home {
+  background-color: #f44336; /* Merah */
+}
+
+.btn-materi {
+  background-color: #4caf50; /* Hijau */
+}
+
+.btn-latihan {
+  background-color: #ff9800; /* Oranye */
+}
+
+.btn-grafik {
+  background-color: #2196f3; /* Biru Muda */
+}
+
+.btn-kuis {
+  background-color: #9c27b0; /* Ungu */
+}
+
+/* Hover efek */
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px; /* Lebar lebih kecil pada layar kecil */
   }
-  
+
   .sidebar h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar li {
-    margin: 15px 0;
-  }
-  
-  .sidebar a {
-    color: #fff;
-    text-decoration: none;
     font-size: 1.2rem;
-    display: block;
-    transition: background-color 0.3s ease;
   }
-  
-  .sidebar a:hover {
-    background-color: #6a11cb;
-    padding: 5px;
-    border-radius: 5px;
+
+  .sidebar a {
+    font-size: 1rem;
+    padding: 8px 10px;
   }
-  
-  /* Optional: Menambahkan transisi agar tampilan lebih smooth */
-  .sidebar ul li a {
-    padding: 10px;
-    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 180px; /* Lebar lebih kecil untuk layar sangat kecil */
   }
-  
-  
+
+  .sidebar h2 {
+    font-size: 1rem;
+  }
+
+  .sidebar a {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+  }
+}

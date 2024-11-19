@@ -7,11 +7,11 @@ const Sidebar = () => {
     <div className="sidebar">
       <h2>Pembelajaran Ekonomi</h2>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/materi">Materi</Link></li>
-        <li><Link to="/latihan-soal">Latihan Soal</Link></li>
-        <li><Link to="/grafik">Grafik Peningkatan</Link></li>
-        <li><Link to="/kuis">Kuis</Link></li>
+        <li><Link to="/" className="btn-home">Home</Link></li>
+        <li><Link to="/materi" className="btn-materi">Materi</Link></li>
+        <li><Link to="/latihan-soal" className="btn-latihan">Latihan Soal</Link></li>
+        <li><Link to="/grafik" className="btn-grafik">Grafik Peningkatan</Link></li>
+        <li><Link to="/kuis" className="btn-kuis">Kuis</Link></li>
       </ul>
     </div>
   );
