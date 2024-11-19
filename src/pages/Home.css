@@ -1,4 +1,5 @@
-homeContainer {
+
+.homeContainer {
   display: flex;
   flex-direction: column; /* Elemen diatur dalam kolom */
   align-items: center;
@@ -84,4 +85,33 @@ homeContainer {
 
 .card p {
   color: #666;
+}
+.contentSection {
+  max-width: 800px;
+  text-align: justify;
+  background: #ffffff; /* Warna latar belakang konten */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Bayangan lembut */
+}
+
+.text {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333; /* Teks utama */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
 }
