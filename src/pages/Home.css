@@ -1,87 +1,87 @@
-.homeContainer {
-    text-align: center;
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: #ffffff;
-    padding: 50px 20px;
-    min-height: 100vh;
-    margin-left: 250px; /* Memberikan ruang untuk sidebar */
-  }
-  
-  .heroSection {
-    margin-bottom: 40px;
-    animation: fadeIn 1.5s ease-in-out;
-    padding-left: 20px; /* Menambah padding kiri agar tidak terlalu dekat dengan sidebar */
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
-  
-  .ctaButton {
-    background-color: #ffffff;
-    color: #2575fc;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .ctaButton:hover {
-    background-color: #2575fc;
-    color: #ffffff;
-  }
-  
-  .cardSection {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .card {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 20px;
-    max-width: 300px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
+homeContainer {
+  display: flex;
+  flex-direction: column; /* Elemen diatur dalam kolom */
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.heroSection {
+  background-image: url('bgekko.jpg'); /* Gambar sebagai latar belakang */
+  background-size: cover; /* Gambar akan memenuhi kontainer */
+  background-position: center; /* Gambar diatur di tengah */
+  width: 118%;
+  height: 620px; /* Tinggi Hero Section */
+  display: flex;
+  flex-direction: column; /* Konten vertikal */
+  align-items: center;
+  justify-content: center; /* Pusatkan teks secara vertikal */
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.searchBar {
+  display: flex;
+  margin-top: 20px;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff8c00;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Card Section */
+.cardSection {
+  display: flex;
+  justify-content: space-around; /* Jarak antar kartu */
+  margin-top: 30px; /* Jarak dengan heroSection */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #ffffff; /* Latar belakang kartu */
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+}
