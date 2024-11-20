@@ -17,6 +17,7 @@
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 20px;
+ 
 }
 
 .sidebar ul {
@@ -58,7 +59,7 @@
 }
 
 .sidebar .btn-kuis {
-  background-color: #9c27b0; /* Ungu */
+  background-color: #0d050e; /* Ungu */
 }
 
 /* Hover efek khusus sidebar */
