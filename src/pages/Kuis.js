@@ -57,6 +57,11 @@ const Kuis = () => {
     setFeedback(`Anda menjawab dengan benar ${correctCount} dari 7 soal.`);
   };
 
+  // Function to reset the answer of a specific question
+  const clearAnswer = (soal) => {
+    setJawaban({ ...jawaban, [soal]: '' });
+  };
+
   return (
     <div className="quiz-container">
       <header className="quiz-header">
@@ -84,9 +89,7 @@ const Kuis = () => {
             {options[soal].map((option) => (
               <label
                 key={option}
-                className={`quiz-option ${
-                  jawaban[soal] === option ? 'selected' : ''
-                }`}
+                className={`quiz-option ${jawaban[soal] === option ? 'selected' : ''}`}
               >
                 <input
                   type="radio"
@@ -99,12 +102,17 @@ const Kuis = () => {
               </label>
             ))}
           </div>
+
+          {/* Tombol Clear untuk Soal Tertentu */}
+          <button onClick={() => clearAnswer(soal)} className="clear-answer-btn btn btn-secondary">
+            Clear My Answer
+          </button>
         </div>
       ))}
 
       {/* Tombol Kirim Jawaban */}
       <div className="quiz-submit">
-        <button onClick={handleSubmit} className="submit-btn">
+        <button onClick={handleSubmit} className="submit-btn btn btn-primary">
           Kirim Jawaban
         </button>
       </div>
