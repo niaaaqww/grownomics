@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
+import logo from "./grow.jpg"; // Pastikan path ini sesuai dengan lokasi logo Anda
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2>Pembelajaran Ekonomi</h2>
+      <div className="logo-container">
+        <img src={logo} alt="Logo" className="logo" />
+        <h2>Grownomics</h2>
+      </div>
       <ul>
         <li>
           <Link to="/" className="btn-home">

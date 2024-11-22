@@ -52,3 +52,14 @@
 .sidebar ul li a i {
   font-size: 18px;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 40px; /* Atur ukuran logo */
+  height: 40px;
+  margin-right: 10px;
+}
