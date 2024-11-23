@@ -1,0 +1,90 @@
+/* Registration Form Container */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(#f4e1c1, #d1a36f);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Heading Style */
+.form-container h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #e8c399;
+  margin-bottom: 20px;
+}
+
+/* Grid Layout for the Form Inputs */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Full-width Fields */
+.form-grid-full {
+  grid-column: span 2;
+}
+
+/* Input Styles */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container input[type="file"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #a68346;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Button Style */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a08051;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #d1a052;
+}
+
+/* Logo Container */
+.login-logo-container {
+  margin-bottom: 20px; /* Add some space between the logo and the form */
+}
+
+/* Logo Styles */
+.logo {
+  width: 80px; /* Adjust the size of the logo */
+  height: 80px;
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
+/* Link Style */
+.form-container a {
+  text-align: center;
+  display: block;
+  color: #755c32;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 0.9em;
+}

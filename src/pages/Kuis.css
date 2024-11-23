@@ -12,6 +12,7 @@
   justify-content: flex-start; /* Konten mulai dari atas */
   align-items: center; /* Pusatkan konten secara horizontal */
   gap: 0px; /* Jarak antar elemen */
+  
 }
 
 .quiz-header {
