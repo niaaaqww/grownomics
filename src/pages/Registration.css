@@ -88,3 +88,17 @@
   text-decoration: none;
   font-size: 0.9em;
 }
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

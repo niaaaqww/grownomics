@@ -1,31 +1,19 @@
 import React from "react";
-import './Home.css';
-import img from "./wal.png";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Hanya CSS
+
 
 const Home = () => {
   return (
-    <div className="homeContainer">
-      <div className="img-container">
-        <img src={img} alt="Background" className="backgroundImage" />
-        
-        {/* Komponen Selamat Datang dan Kolom Pencarian */}
-        <div className="welcomeSection">
-          <h1 className="welcomeTitle">Selamat Datang</h1>
-          <h3 className="welcomeSubtitle">di Website Pembelajaran Ekonomi</h3>
-          <div className="searchBar">
-            <input
-              type="text"
-              placeholder="Cari materi..."
-              className="searchInput"
-            />
-            <button className="searchButton">Cari</button>
-          </div>
-        </div>
-      </div>
-
-      {/* Bagian Konten atau Fitur Lain */}
-      <div className="content">
-        <p>Ini adalah tempat untuk konten tambahan atau fitur lainnya.</p>
+    <div className="container text-center my-5">
+      <h1 className="display-4 text-primary">Selamat Datang</h1>
+      <p className="lead">di Website Pembelajaran Ekonomi</p>
+      <div className="input-group w-50 mx-auto my-4">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Cari materi..."
+        />
+        <button className="btn btn-primary">Cari</button>
       </div>
     </div>
   );

@@ -1,23 +1,28 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Mengimpor useNavigate untuk navigasi
-import { Link } from "react-router-dom"; // Import Link for navigation to registration
-import "./Login.css"; // Gaya CSS untuk login (bisa disesuaikan)
-import logo from "./grow.jpg"; // Logo
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom"; // Import Link for navigation
+import "./Login.css";
+import logo from "./grow.jpg";
 
 const Login = ({ setIsLoggedIn }) => {
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate(); // Hook navigate untuk berpindah halaman
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Mencegah form untuk reload halaman
+    e.preventDefault();
 
-    console.log("Username:", username);
-    console.log("Password:", password);
+    // Retrieve user data from localStorage
+    const storedUserData = JSON.parse(localStorage.getItem("userData"));
 
-    // Simulasi login berhasil tanpa memeriksa username dan password
-    setIsLoggedIn(true);
-    navigate("/home"); // Arahkan ke halaman Home setelah login berhasil
+    // Validate email and password
+    if (storedUserData && storedUserData.email === email && storedUserData.password === password) {
+      setIsLoggedIn(true);
+      alert("Login berhasil! Mengarahkan ke halaman Home.");
+      navigate("/home"); // Navigate to Home page
+    } else {
+      alert("Email atau password Anda salah.");
+    }
   };
 
   return (
@@ -26,14 +31,14 @@ const Login = ({ setIsLoggedIn }) => {
         <h2>Login</h2>
         <img src={logo} alt="Logo" className="login-logo" />
       </div>
-    
+
       <form onSubmit={handleSubmit}>
         <div className="input-container">
-          <label>Username</label>
+          <label>Email</label>
           <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
         </div>
@@ -49,9 +54,11 @@ const Login = ({ setIsLoggedIn }) => {
         <button type="submit" className="login-button">Login</button>
       </form>
 
-      {/* Link to Registration page if user does not have an account */}
+      {/* Add link to registration */}
       <div className="register-container">
-        <p>Don't have an account? <Link to="/register">Register here</Link></p>
+        <p>
+          Don't have an account? <Link to="/register">Register here</Link>
+        </p>
       </div>
     </div>
   );
