@@ -1,165 +1,79 @@
-<<<<<<< Updated upstream
+/* Sidebar Container */
 .sidebar {
   width: 250px;
-  background-color: #365575;
-  color: white;
-  position: fixed; /* Sidebar tetap pada posisi */
-  top: 0;
-  left: 0;
-  height: 100vh; /* Tinggi penuh */
-  overflow-y: auto; /* Tambahkan scroll jika konten lebih panjang */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Konten mulai dari atas */
-=======
-/* Gaya umum untuk sidebar */
-.sidebar {
+  height: 100vh;
+  background-color: #343a40;
+  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
-  height: 100vh;
-  background-color: #2575fc; /* Warna latar belakang sidebar */
-  color: #fff;
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 10;
-  overflow-y: auto; /* Jika terlalu panjang, sidebar bisa digulir */
->>>>>>> Stashed changes
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  z-index: 1000;
 }
 
-.sidebar h2 {
-  text-align: center;
-<<<<<<< Updated upstream
-  padding: 20px;
-  background: linear-gradient(to right, #f4e1c1, #d1a36f);
-  color: white;
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-=======
-  font-size: 1.5rem;
-  margin-bottom: 20px;
->>>>>>> Stashed changes
+.sidebar.closed {
+  width: 60px;
 }
 
-.sidebar ul {
-  list-style: none;
+.sidebar-menu {
+  list-style-type: none;
   padding: 0;
-<<<<<<< Updated upstream
   margin: 0;
-  flex-grow: 1; /* Menyesuaikan tinggi dengan konten */
 }
 
-.sidebar ul li {
+.sidebar-menu li {
   padding: 15px 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
 }
 
-.sidebar ul li a {
-  color: white;
+.sidebar-menu li a {
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 16px;
-}
-
-.sidebar ul li a:hover {
-  background-color: #bea477;
-  border-radius: 5px;
-}
-
-.sidebar ul li a i {
-  font-size: 18px;
-}
-.logo-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 40px; /* Atur ukuran logo */
-  height: 40px;
-  margin-right: 10px;
-}
-=======
-}
-
-.sidebar li {
-  margin-bottom: 15px;
-}
-
-/* Gaya tombol */
-.sidebar a {
-  display: block;
-  font-size: 1.2rem;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px 15px;
-  border-radius: 8px;
   color: #fff;
-  transition: all 0.3s ease;
+  font-size: 16px;
+  display: block;
 }
 
-/* Warna berbeda untuk setiap tombol */
-.btn-home {
-  background-color: #f44336; /* Merah */
+.sidebar-menu li a:hover {
+  background-color: #495057;
+  border-radius: 4px;
 }
 
-.btn-materi {
-  background-color: #4caf50; /* Hijau */
+/* Toggle Button */
+.toggle-btn {
+  background-color: #495057;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
 }
 
-.btn-latihan {
-  background-color: #ff9800; /* Oranye */
+.toggle-btn:hover {
+  background-color: #6c757d;
 }
 
-.btn-grafik {
-  background-color: #2196f3; /* Biru Muda */
-}
-
-.btn-kuis {
-  background-color: #9c27b0; /* Ungu */
-}
-
-/* Hover efek */
-.sidebar a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
-}
-
-/* Responsivitas */
+/* Responsiveness */
 @media (max-width: 768px) {
   .sidebar {
-    width: 200px; /* Lebar lebih kecil pada layar kecil */
+    width: 60px;
   }
 
-  .sidebar h2 {
-    font-size: 1.2rem;
+  .sidebar.open {
+    width: 250px;
   }
 
-  .sidebar a {
-    font-size: 1rem;
-    padding: 8px 10px;
+  .sidebar-menu li {
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  .sidebar-menu li a {
+    font-size: 14px;
   }
 }
-
-@media (max-width: 480px) {
-  .sidebar {
-    width: 180px; /* Lebar lebih kecil untuk layar sangat kecil */
-  }
-
-  .sidebar h2 {
-    font-size: 1rem;
-  }
-
-  .sidebar a {
-    font-size: 0.9rem;
-    padding: 6px 8px;
-  }
-}
->>>>>>> Stashed changes

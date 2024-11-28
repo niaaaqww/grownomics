@@ -10,8 +10,6 @@ import Kuis from "./pages/Kuis"; // Kuis berada di folder 'pages'
 import Login from "./pages/Login"; // Login berada di folder 'pages'
 import Registration from "./pages/Registration"; // Registration page for users to sign up
 import "./App.css"; // Styling global untuk keseluruhan aplikasi
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 
 function App() {
