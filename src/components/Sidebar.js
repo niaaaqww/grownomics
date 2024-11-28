@@ -11,6 +11,7 @@ const Sidebar = () => {
         <h2>Grownomics</h2>
       </div>
       <ul>
+<<<<<<< Updated upstream
         <li>
           <Link to="/" className="btn-home">
             <i className="bi bi-house-door"></i> Home
@@ -36,6 +37,13 @@ const Sidebar = () => {
             <i className="bi bi-question-circle"></i> Kuis
           </Link>
         </li>
+=======
+        <li><Link to="/" className="btn-home">Home</Link></li>
+        <li><Link to="/materi" className="btn-materi">Materi</Link></li>
+        <li><Link to="/latihan-soal" className="btn-latihan">Latihan Soal</Link></li>
+        <li><Link to="/grafik" className="btn-grafik">Grafik Peningkatan</Link></li>
+        <li><Link to="/kuis" className="btn-kuis">Kuis</Link></li>
+>>>>>>> Stashed changes
       </ul>
     </div>
   );
