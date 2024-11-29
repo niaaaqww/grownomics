@@ -2,15 +2,16 @@
   position: relative;
   text-align: center;
   padding-left: 100px;
-  height: 125%;
-}
+  width: 147vh; 
+  height: 190vh;
 
+}
+ 
 .img {
   width: 115%;
   height: 40%;
   border-radius: 8px;
-
-}
+} 
 
 /* Elemen Selamat Datang */
 .welcomeText {
@@ -27,14 +28,14 @@
 }
 
 .welcomeTitle {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #e8c399
 }
 
 .welcomeSubtitle {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -46,8 +47,8 @@
 
 .searchInput {
   padding: 10px;
-  font-size: 16px;
-  width: 250px;
+  font-size: 19px;
+  width: 290px;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -71,7 +72,7 @@
 
 /* Bagian Fitur */
 .featuresSection {
-  background: linear-gradient(#f4e1c1, #d1a36f);
+  background-color: rgb(255, 231, 189);
   padding: 40px 20px;
   margin: 30px auto;
   width: 115%;
@@ -87,24 +88,30 @@
 
 .featuresGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  justify-items: center;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  gap: 25px; /* Jarak antar kotak fitur */
+  justify-items: center; /* Elemen di tengah tiap kolom */
+  width: 90%; /* Batasi lebar grid agar tidak terlalu menyebar */
+  margin: 0 auto; /* Pusatkan grid secara horizontal */
 }
 
+/* Sesuaikan ukuran fitur agar seimbang */
 .featureCard {
-  background: white;
+  background: #f5ca9a;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  width: 90%; /* Sesuaikan ukuran kotak */
+  max-width: 300px; /* Batas lebar maksimum */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan ringan */
 }
 
 .featureCard:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px); /* Sedikit efek hover */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 .featureImage {
   width: 100px; /* Ukuran gambar */

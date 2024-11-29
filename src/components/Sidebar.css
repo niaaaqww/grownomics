@@ -17,41 +17,53 @@
   width: 80px;
 }
 
-/* Logo */
+/* Ukuran logo saat sidebar terbuka */
 .logo-container {
+  width: 100%; /* Menyesuaikan lebar kontainer dengan sidebar */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 10px;
-  margin-right: 20px;
+  transition: all 0.3s ease; /* Animasi transisi */
 }
 
 .logo {
-  width: 10px;
-  height: 10px;
- 
-} 
+  width: 70px; /* Ukuran logo besar */
+  height: 90px;
+  transition: all 0.3s ease; /* Animasi transisi ukuran logo */
+}
 
+/* Ukuran logo saat sidebar ditutup */
+.sidebar.closed .logo-container {
+  padding: 5px;
+  margin-top: 60px; /* Kurangi padding untuk tampilan lebih kecil */
+}
 
+.sidebar.closed .logo {
+  width: 40px; /* Ukuran logo kecil */
+  height: 50px;
+}
 
 /* Tombol Toggle */
 .toggle-btn {
   position: absolute;
   top: 20px;
-  right: -20px; /* Tetap di tempat yang sama */
-  background-color: #34495e;
+  right: 0px; /* Geser tombol toggle sedikit ke kiri */
+  background-color: #bf955d;
   color: white;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  padding: 9px;
   border-radius: 50%;
   font-size: 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  margin-bottom: 40px;
+  margin-right: 20px;
 }
 
 .toggle-btn:hover {
-  background-color: #1abc9c;
+  background-color: #ebc899;
 }
 
 /* Menu */
@@ -81,6 +93,10 @@
 }
 
 /* Sembunyikan teks menu saat sidebar ditutup */
+.sidebar.closed .sidebar-menu a {
+  text-align: center;
+  padding: 15px 0;
+}
 .sidebar.closed .sidebar-menu a {
   text-align: center;
   padding: 15px 0;

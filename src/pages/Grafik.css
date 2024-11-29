@@ -6,6 +6,8 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
     border-radius: 10px; /* Membulatkan tepi */
     border: 1px solid #ddd; /* Garis batas */
+    margin-left: 280px;
+    
   }
   
   /* Judul grafik */

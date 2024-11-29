@@ -3,7 +3,8 @@ import "./Home.css";// Pastikan file CSS diimpor
 import img from "./wal.png"; // Gambar latar belakang
 import fitur1 from "./3.png"; // Gambar fitur 1
 import fitur2 from "./1.png"; // Gambar fitur 2
-import fitur3 from "./2.png"; // Gambar fitur 3
+import fitur3 from "./2.png";
+import fitur4 from "./4.png"; // Gambar fitur 3
 
 const Home = () => {
   return (
@@ -32,8 +33,8 @@ const Home = () => {
           {/* Fitur 1 */}
           <div className="featureCard">
             <img src={fitur1} alt="Pelajaran Interaktif" className="featureImage" />
-            <h3>Pelajaran Interaktif</h3>
-            <p>Meningkatkan pemahaman melalui kuis dan simulasi.</p>
+            <h3>Kuis</h3>
+            <p>Meningkatkan pemahaman dengan cepat dan tepat melalui kuis.</p>
           </div>
 
           {/* Fitur 2 */}
@@ -46,8 +47,14 @@ const Home = () => {
           {/* Fitur 3 */}
           <div className="featureCard">
             <img src={fitur3} alt="Pemantauan Kemajuan" className="featureImage" />
-            <h3>Pemantauan Kemajuan</h3>
-            <p>Lihat progres belajar Anda secara langsung.</p>
+            <h3>Latihan Soal</h3>
+            <p>Latih pemahaman materi dengan pengerjaan soal.</p>
+          </div>
+
+          <div className="featureCard">
+            <img src={fitur4} alt="" className="featureImage" />
+            <h3>Grafik Kemajuan</h3>
+            <p>Lihat progres belajar secara langsung.</p>
           </div>
           
         </div>

@@ -4,7 +4,7 @@ import "./Kuis.css"; // Mengimpor file CSS
 const Kuis = () => {
   const pertanyaanPerKuis = [
     {
-      kuis: "Kuis 1: Sejarah Dunia",
+      kuis: "Kuis 1",
       soal: [
         { id: 1, soal: "Siapa penemu listrik?", pilihan: ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Alexander Graham Bell"], jawabanBenar: "Nikola Tesla" },
         { id: 2, soal: "Apa tahun Proklamasi Kemerdekaan Indonesia?", pilihan: ["1945", "1939", "1950", "1920"], jawabanBenar: "1945" },
@@ -17,13 +17,38 @@ const Kuis = () => {
       ],
     },
     {
-      kuis: "Kuis 2: Ilmu Pengetahuan Alam",
+      kuis: "Kuis 2",
       soal: [
         { id: 1, soal: "Apa nama unsur dengan simbol H?", pilihan: ["Hidrogen", "Helium", "Oksigen", "Nitrogen"], jawabanBenar: "Hidrogen" },
         { id: 2, soal: "Apa warna darah manusia?", pilihan: ["Merah", "Biru", "Hijau", "Kuning"], jawabanBenar: "Merah" },
         { id: 3, soal: "Apa nama planet terdekat dengan Matahari?", pilihan: ["Merkurius", "Venus", "Bumi", "Mars"], jawabanBenar: "Merkurius" },
       ],
     },
+    {
+      kuis: "Kuis 3",
+      soal: [
+        { id: 1, soal: "Apa nama unsur dengan simbol H?", pilihan: ["Hidrogen", "Helium", "Oksigen", "Nitrogen"], jawabanBenar: "Hidrogen" },
+        { id: 2, soal: "Apa warna darah manusia?", pilihan: ["Merah", "Biru", "Hijau", "Kuning"], jawabanBenar: "Merah" },
+        { id: 3, soal: "Apa nama planet terdekat dengan Matahari?", pilihan: ["Merkurius", "Venus", "Bumi", "Mars"], jawabanBenar: "Merkurius" },
+      ],
+    },
+    {
+      kuis: "Kuis 4",
+      soal: [
+        { id: 1, soal: "Apa nama unsur dengan simbol H?", pilihan: ["Hidrogen", "Helium", "Oksigen", "Nitrogen"], jawabanBenar: "Hidrogen" },
+        { id: 2, soal: "Apa warna darah manusia?", pilihan: ["Merah", "Biru", "Hijau", "Kuning"], jawabanBenar: "Merah" },
+        { id: 3, soal: "Apa nama planet terdekat dengan Matahari?", pilihan: ["Merkurius", "Venus", "Bumi", "Mars"], jawabanBenar: "Merkurius" },
+      ],
+    },
+    {
+      kuis: "Kuis 5",
+      soal: [
+        { id: 1, soal: "Apa nama unsur dengan simbol H?", pilihan: ["Hidrogen", "Helium", "Oksigen", "Nitrogen"], jawabanBenar: "Hidrogen" },
+        { id: 2, soal: "Apa warna darah manusia?", pilihan: ["Merah", "Biru", "Hijau", "Kuning"], jawabanBenar: "Merah" },
+        { id: 3, soal: "Apa nama planet terdekat dengan Matahari?", pilihan: ["Merkurius", "Venus", "Bumi", "Mars"], jawabanBenar: "Merkurius" },
+      ],
+    },
+    
     // Anda bisa menambahkan kuis lainnya sesuai kebutuhan
   ];
 
