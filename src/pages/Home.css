@@ -1,56 +1,47 @@
-.homeContainer {
-  font-family: Arial, sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  text-align: center;
-  position: relative;
-  width: 1240px;
-}
-
-/* Gaya untuk Gambar Latar Belakang */
 .img-container {
   position: relative;
-  width: 100%;
-  height: 600px; /* Atur tinggi sesuai kebutuhan */
+  text-align: center;
+  padding-left: 100px;
+  height: 125%;
 }
 
-.backgroundImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.img {
+  width: 115%;
+  height: 40%;
   border-radius: 8px;
+
 }
 
-/* Komponen Selamat Datang */
-.welcomeSection {
+/* Elemen Selamat Datang */
+.welcomeText {
   position: absolute;
-  top: 15%; /* Atur posisi vertikal di area yang Anda lingkari */
-  left: 50%;
-  transform: translate(-60%, -30%);
+  top: 10%;
+  left: 60%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff;
+  background: transparent;
   padding: 20px 40px;
+  border-radius: 10px;
+
 }
 
 .welcomeTitle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-} 
+  color: #e8c399
+}
 
 .welcomeSubtitle {
   font-size: 24px;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* Kolom Pencarian */
-.searchBar {
+.searchContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+  gap: 10px;
 }
 
 .searchInput {
@@ -59,33 +50,78 @@
   width: 250px;
   border: none;
   border-radius: 5px;
-  margin-right: 10px;
   outline: none;
 }
 
 .searchButton {
   padding: 10px 20px;
   font-size: 16px;
-  background-color:#b5905a;
+  background-color: #cfa06b;
   color: white;
-  border: none; 
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .searchButton:hover {
-  background-color: #bea477;
+  background-color: #1769aa;
   transform: scale(1.1);
 }
 
-/* Responsif */
-@media (max-width: 768px) {
-  .welcomeSection {
-    top: 20%; /* Sesuaikan posisi untuk layar kecil */
-  }
+/* Bagian Fitur */
+.featuresSection {
+  background: linear-gradient(#f4e1c1, #d1a36f);
+  padding: 40px 20px;
+  margin: 30px auto;
+  width: 115%;
+}
 
-  .searchInput {
-    width: 80%; /* Memperlebar input untuk layar kecil */
-  }
+.featuresTitle {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.featureCard {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.featureImage {
+  width: 100px; /* Ukuran gambar */
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%; /* Membuat gambar melingkar */
+}
+
+.featureCard h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.featureCard p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
 }

@@ -50,12 +50,22 @@
   
   /* Style for username and password inputs */
   input[type="text"],
-  input[type="password"] {
+  input[type="email"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #6b532e;
     border-radius: 5px;
     font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  } 
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6b532e;
+    border-radius: 5px; 
+    font-size: 12px;
     box-sizing: border-box;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
   }
@@ -95,14 +105,14 @@
   }
   
   /* Links for Register and Login page */
-  .lolz a {
+  .register-container p {
     color: #755c32;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease, transform 0.3s ease;
   }
   
-  .lolz a:hover {
+  .register-container:hover {
     color: #a08051;
     transform: scale(1.1);
   }
@@ -129,7 +139,6 @@
     }
   }
   .register-container p{
-    
     padding: 9px;
   }
   
