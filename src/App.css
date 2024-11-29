@@ -42,3 +42,18 @@ body {
   flex-grow: 1;
   padding: 20px;
 }
+:root {
+  --bs-primary: #ffffff; /* Mengubah warna utama (primary) menjadi putih */
+}
+
+/* Override warna lain jika diperlukan */
+body {
+  background-color: #ffffff; /* Mengubah latar belakang menjadi putih */
+  color: #000000; /* Mengubah teks menjadi hitam */
+}
+
+.btn-primary {
+  background-color: #ffffff !important; /* Tombol utama dengan latar belakang putih */
+  border-color: #ffffff !important; /* Border tombol utama */
+  color: #000000; /* Teks tombol utama */
+}
