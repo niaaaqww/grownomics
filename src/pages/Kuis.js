@@ -6,7 +6,7 @@ const Kuis = () => {
     {
       kuis: "Kuis 1",
       soal: [
-        { id: 1, soal: "Siapa penemu listrik?", pilihan: ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Alexander Graham Bell"], jawabanBenar: "Nikola Tesla" },
+        { id: 1, soal: "iapa penemu listrik?", pilihan: ["Nikola Tesla", "Thomas Edison", "Albert Einstein", "Alexander Graham Bell"], jawabanBenar: "Nikola Tesla" },
         { id: 2, soal: "Apa tahun Proklamasi Kemerdekaan Indonesia?", pilihan: ["1945", "1939", "1950", "1920"], jawabanBenar: "1945" },
         { id: 3, soal: "Dimana terjadinya Perang Dunia II?", pilihan: ["Eropa", "Asia", "Afrika", "Australia"], jawabanBenar: "Eropa" },
         { id: 4, soal: "Siapa Presiden pertama Indonesia?", pilihan: ["Soekarno", "Soeharto", "Joko Widodo", "B.J. Habibie"], jawabanBenar: "Soekarno" },

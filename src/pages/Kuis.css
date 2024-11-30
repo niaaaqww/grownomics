@@ -89,7 +89,7 @@
 }
 
 .pilihan-button:hover {
-  background-color: #a8957f; /* Sedikit lebih gelap saat hover */
+  background-color: #9a8368; /* Sedikit lebih gelap saat hover */
 }
 
 .selected {
@@ -128,7 +128,7 @@
 
 .kembali-button {
   background-color: #d9c4b5;
-  color: #5a3e36;
+  color: #5a3e37;
   font-size: 20px;
   padding: 12px 24px;
   border: none;

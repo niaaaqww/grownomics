@@ -72,7 +72,7 @@ const Grafik = () => {
           placeholder="Masukkan nilai baru"
           onChange={(e) => setNilaiBaru(e.target.value)}
         />
-        <button onClick={tambahNilai}>Tambah Nilai</button>
+        <button onClick={tambahNilai}>Tambah Nlai</button>
       </div>
 
       {/* Input untuk menambah kuis baru */}

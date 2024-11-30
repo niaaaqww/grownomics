@@ -59,7 +59,7 @@ const Login = ({ setIsLoggedIn }) => {
             placeholder=" " // Tambahkan placeholder kosong
             required
           />
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Pssword</label>
         </div>
         <button type="submit" className="login-button">Login</button>
       </form>

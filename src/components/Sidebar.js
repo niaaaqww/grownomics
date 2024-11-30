@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 // Import gambar
-import logos from "./grow.jpg"; // Sesuaikan dengan path logo Anda
+import logose from "./grow.jpg"; // Sesuaikan dengan path logo Anda
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className={`sidebar ${isOpen ? "open" : "closed"}`}>
       {/* Logo */}
       <div className="logo-container">
-        <img src={logos} alt="Logo" className={`logo ${isOpen ? "large" : "small"}`} />
+        <img src={logose} alt="Logo" className={`logo ${isOpen ? "large" : "small"}`} />
         
       </div>
 
