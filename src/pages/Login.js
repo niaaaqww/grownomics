@@ -61,7 +61,7 @@ const Login = ({ setIsLoggedIn }) => {
           />
           <label htmlFor="password">Pssword</label>
         </div>
-        <button type="submit" className="login-button">Login</button>
+        <button type="submit" className="login-button">Lgin</button>
       </form>
 
       <div className="register-container">

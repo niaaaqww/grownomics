@@ -61,7 +61,7 @@ const Grafik = () => {
 
   return (
     <div className="grafik-container">
-      <h2>Grafik Peningkatan Nilai</h2>
+      <h2>Grafik Peningkatannn Nilai</h2>
       <Line data={data} options={options} />
 
       {/* Input untuk menambah nilai */}

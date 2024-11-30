@@ -40,7 +40,7 @@ const Home = () => {
           {/* Fitur 2 */}
           <div className="featureCard">
             <img src={fitur2} alt="Materi Mudah Diakses" className="featureImage" />
-            <h3>Materi Mudah Diakses</h3>
+            <h3>Materi Mudah Diakseesss</h3>
             <p>Dapatkan materi kapan saja dan di mana saja.</p>
           </div>
 
