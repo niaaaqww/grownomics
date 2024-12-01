@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-.img-container {
-  position: relative;
-=======
 
 .homeContainer {
   display: flex;
@@ -26,7 +22,6 @@
   align-items: center;
   justify-content: center; /* Pusatkan teks secara vertikal */
   color: #ffffff;
->>>>>>> 6b0ab81d1d1ed01f6f1a1cb1b559791c7e592e72
   text-align: center;
   padding-left: 100px;
   width: 141vh; 
